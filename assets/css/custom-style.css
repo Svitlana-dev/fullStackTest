@@ -1,0 +1,95 @@
+/* ------login part------------------- */
+.login-part{
+    margin-top: 100px;
+}
+
+.cus-input .form-control {
+    padding-left: 3rem;
+    border-radius: 25px;
+    height: 50px;
+}
+
+.cus-input .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 3rem;
+    height: 30px;
+    line-height: 50px;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    margin-top: 10px;
+}
+
+.login-part .custom-control-input:checked~.custom-control-label::before{
+    border-color: #E98C3B;
+    background-color: #E98C3B;
+}
+
+
+#login_btn{
+    color: white;
+    border-radius: 25px;
+    background-color: #E98C3B;
+    height: 50px;
+}
+
+#login_btn:hover{
+    background-color: rgb(255, 119, 0);
+}
+
+/*
+ * Form styles
+ */
+.logout-part{
+    background-color:#EBEBEB;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    color: #333;
+}
+
+.logout-part a{
+    color: #333;
+}
+
+
+.user-list table thead td{
+    background: #e98c3b;
+    padding: 5px !important;
+}
+
+.user-list table tr td i {
+    color: #188835;
+    font-size: 25px;
+}
+
+
+.user-list table tr td {
+    text-align: left;
+    line-height: 1.8;
+    padding: 20px;
+}
+.user-list table tr td:first-child {
+    text-align: right;
+}
+
+.custable-striped {
+    border: none;
+}
+.custable-striped span{
+    display: block;
+}
+.custable-striped tr:nth-child(even) {
+    background-color: #EBEBEB;
+}
+.custable-striped tr:nth-child(odd) {
+    background-color: white;
+}
+
+.cuspagination a{
+    color: #333;
+}
+

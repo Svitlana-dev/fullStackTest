@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Test-Task</title>
+	<link href="./assets/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="./assets/css/custom-style.css" rel="stylesheet" type="text/css" >
+</head>
+
+<body class="bg-light">
+	<div class="container">
+		<div class="row login-part">
+			<div class="col-md-6 offset-md-3">
+				<img src="./assets/img/Logo.svg" alt="">
+
+				<h5 class="mt-5 mb-0">Welcome to the learning menagement system</h5>
+				<p>please login to continue</p>
+				<p class="text-danger mt-5 ml-3" id="error"></p>
+				
+				<form class="form-signin" id="login-form">
+					<div class="form-group cus-input">
+						<img src="./assets/img/user.svg" class="form-control-feedback" alt="">
+						<input type="text" class="form-control" placeholder="Username" id="login-username" name="username">
+					</div>
+					<div class="form-group cus-input">
+						<img src="./assets/img/password.svg" class="form-control-feedback" alt="">
+						<input type="password" class="form-control" placeholder="Password" id="login-password" name="password">
+					</div>
+					<div class="custom-control custom-checkbox ml-3" id="remember">
+						<input type="checkbox" class="custom-control-input" id="customCheck1" name="remember">
+						<label class="custom-control-label" for="customCheck1">Remember Me</label>
+					</div>
+					<button class="btn w-100 mt-5" id="login_btn" type="submit">
+						<span class="pull-left">Login</span>
+						<span class="pull-right"><i class="fa fa-chevron-circle-right"></i></span>
+					</button>
+				</form>	
+			</div>
+		</div>
+	</div>
+	<script src="./assets/js/jquery-3.4.1.min.js"></script>
+	<script src="./assets/js/login.js"></script>
+</body>
+
+</html>
