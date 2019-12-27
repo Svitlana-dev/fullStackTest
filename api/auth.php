@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'DELETE') {
 MyDatabase::connectDB();
 
 $login = post('username');
-$login = $str=preg_replace('/\s+/', '', $login);
+$login = preg_replace('/\s+/', '', $login);
 $pwd = post('password');
 
 if ($login === null || $pwd === null) {
